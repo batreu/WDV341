@@ -30,6 +30,7 @@ echo "<h1>".$assignmentName."</h1>";
 
 <p>
     <?php  /**This output the php array variable**/
+    $stingData = "";
     foreach ($phparray as $value) {
         echo "$value <br>";
     }
@@ -37,10 +38,12 @@ echo "<h1>".$assignmentName."</h1>";
 </p>
 
 
-<p id="arrayoutput"><br></p>
 <script> /** Js array to output the same info I could not understand how to pass variable from php to JS **/
-    const jsarray = ["PHP", "HTML", "Javascript"];
-    document.getElementById("arrayoutput").innerHTML = jsarray;
+    const jsarray = ["<?PHP echo $phparray[0]?>","<?PHP echo $phparray[1]?>","<?PHP echo $phparray[2]?>" ];
+    console.log(jsarray);
+    //const newjsarray = [<?php echo $stingData; ?>];
+    //console.log(newjsarray);
+    //console.log("length of newjsarray array" + newjsarray.length);
 </script>
 
 </body>
