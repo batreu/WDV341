@@ -71,9 +71,9 @@ else{
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/mainSiteCss.css" rel="stylesheet" type="text/css">
-    <title>Unit 14 Protect your dynamic pages</title>
+    <title>Unit 14 Protecting Pages</title>
 </head>
-<body style="background-color: black;">
+<body style="background-color: limegreen;">
 
 <?php 
 if(!$validUser){
@@ -98,19 +98,8 @@ if(!$validUser){
     <?php
 }
 else{
-    ?>
-        <div style="width: 550px; border-radius: 5%; border: white 5px solid; background-color: grey; margin-left: 33%;">
-        <h3>Welcome Back: <?php echo $userName; ?></h3>
-        <h3>Administrator Home Page</h3>
+    header("Location: loggedInHomepage.php");
 
-            <a href="loggedInHomePage.html" class="button">View the Logged In HomePage</a>
-            <br>
-
-
-
-        <p><a href="logout.php" class="button">Logout of Admin Panel</a></p>
-        </div>
-    <?php   
 }
     ?>
 
