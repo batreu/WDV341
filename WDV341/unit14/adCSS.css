@@ -1,0 +1,241 @@
+#adMoney {
+  height: 120px;
+  width: 600px;
+  border: solid white 5px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+#coin-roll {
+  position: relative;
+  bottom: -15px;
+  left: -100px;
+  animation-name: coin-roll;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+  transition: transform 3s;
+  transform: rotate(360deg);
+}
+
+@keyframes coin-roll {
+  from {
+    left: 24px;
+    transform: rotate(0deg);
+  }
+  to {
+    left: 500px;
+    transform: rotate(360deg);
+  }
+}
+#cash-stack {
+  width: 100px;
+}
+
+[cash-stack-one] {
+  position: relative;
+  left: 183px;
+  top: -75px;
+  animation-name: cashStackOne;
+  animation-delay: 2600ms;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+
+[cash-stack-two] {
+  position: relative;
+  left: 81px;
+  top: -75px;
+  animation-name: cashStackTwo;
+  animation-delay: 2900ms;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+
+[cash-stack-three] {
+  position: relative;
+  left: -22px;
+  top: -75px;
+  animation-name: cashStackThree;
+  animation-delay: 3200ms;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cashStackOne {
+  from {
+    top: -75px;
+  }
+  to {
+    top: 44px;
+  }
+}
+@keyframes cashStackTwo {
+  from {
+    top: -75px;
+  }
+  to {
+    top: 9px;
+  }
+}
+@keyframes cashStackThree {
+  from {
+    top: -75px;
+  }
+  to {
+    top: -27px;
+  }
+}
+#logo {
+  width: 110px;
+  position: relative;
+  left: -205px;
+  top: -5px;
+  animation-name: logo;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 300ms;
+}
+
+#logo:hover {
+  background-color: rgba(170, 19, 19, 0.189);
+  border-radius: 25px;
+}
+
+@keyframes logo {
+  from {
+    left: -205px;
+  }
+  to {
+    left: -100px;
+  }
+}
+#button {
+  border-radius: 25px;
+  position: relative;
+  bottom: -90px;
+  left: -400px;
+  animation-name: button;
+  animation-delay: 500ms;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  background-color: #af1d1d;
+  color: white;
+}
+
+#button:hover {
+  transform: scale(1.2) translateY(-10px);
+}
+
+@keyframes button {
+  from {
+    bottom: -90px;
+  }
+  to {
+    bottom: -50px;
+  }
+}
+#text {
+  width: 205px;
+  height: 60px;
+  position: relative;
+  top: -158px;
+  left: 125px;
+  animation-name: text;
+  animation-delay: 500ms;
+  animation-duration: 2500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text {
+  from {
+    top: -158px;
+  }
+  to {
+    top: -100px;
+  }
+}
+div#text > p {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+div#text > p:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 400px) {
+  #ad {
+    width: 375px;
+  }
+
+  #coin-roll {
+    animation-fill-mode: backwards;
+    animation-duration: 3800ms;
+  }
+
+  @keyframes coin-roll {
+    from {
+      left: -100px;
+      transform: rotate(0deg);
+    }
+    to {
+      left: 272px;
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes text {
+    to {
+      top: -132px;
+    }
+  }
+  #text {
+    top: -200px;
+    animation-delay: 4s;
+  }
+
+  #logo {
+    animation-delay: 4s;
+  }
+
+  [cash-stack-one] {
+    left: -210px;
+    animation-delay: 1300ms;
+    animation-fill-mode: backwards;
+    animation-duration: 2500ms;
+  }
+
+  [cash-stack-two] {
+    left: 5px;
+    top: -150px;
+    animation-delay: 1800ms;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+  }
+
+  @keyframes cashStackTwo {
+    to {
+      top: -60px;
+    }
+  }
+  [cash-stack-three] {
+    left: -97px;
+    top: -150px;
+    animation-delay: 2300ms;
+    animation-duration: 1500ms;
+    animation-fill-mode: backwards;
+  }
+
+  @keyframes cashStackThree {
+    to {
+      top: -96px;
+    }
+  }
+}
+
+/*# sourceMappingURL=adCSS.css.map */
