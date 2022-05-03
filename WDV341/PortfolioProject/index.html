@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags / Brandon A Treu 900704435 batreu@dmacc.edu-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- My CSS -->
+    <link href="portfolioSass.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <!--ICON AND GRAPHIC <a href="https://www.flaticon.com/free-icons/devil" title="devil icons">Devil icons created by juicy_fish - Flaticon</a>//https://ericaofanderson.tumblr.com/post/170155287606/crystal-cave-you-can-get-this-gif-as-a-looping-->
+
+    <title>Portfolio Project Site / Chaos Games</title>
+</head>
+<body style="background-color: #081A2F">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#" style="font-family: 'Rubik Wet Paint', cursive; font-size: 55px;"><img src="images/devil.png" width="100px" height="100px">
+            <span class="navbar-store-name">Chaos Games</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="boardGamesShop.php">Shop</a>
+                </li>
+                <!--<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="boardGamesShop.php">Board Games</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactForm.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php" style="font-size: 14px;">Staff Login</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" style="background-color:#081A2F; border-color: white; color: white;">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div id="castleTop"></div>
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/comicWall.png" class="d-block w-100" alt="comic wall" style="height: 400px">
+        </div>
+        <div class="carousel-item">
+            <img src="images/cardCase.jpg" class="d-block w-100" alt="card case" style="height: 400px">
+        </div>
+        <div class="carousel-item">
+            <img src="images/boardGameWall.jpg" class="d-block w-100" alt="board game wall"  style="height: 400px">
+        </div>
+    </div>
+</div>
+<div class="castleTop"></div>
+<br>
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="attentionBoard" id="savingsAD">
+                    <span id="save-on-shipping" style="color: white; font-size: 30px;"><img src="images/sackOfSavings.png" style="width: 200px; height: 200px;"><a class="nav-link" href="boardGamesShop.php" style="color: white; font-size: 25px; text-align: center; background-color: black;">Save on Shipping!</a></span>
+                </div>
+                <div class="attentionBoard" style="text-align: center; width: 300px;height: 300px; left: 50px; top: 450px;">
+                    <a href="boardGamesShop.php"><img src="productImages/pandemicImage.jpg" width="225px" height="225px"> New Games!</a>
+                </div>
+                <div class="attentionBoard" style="text-align: center; width: 300px;height: 300px; left: 50px; top: 800px;">
+                    <span style="color: white"><img src="images/cardCase.jpg" width="250px" height="225px"> New Cards! </span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="noticeboard" style="text-align: center; left: -20px; top: 100px;">
+                    <img src="images/war3news.gif">
+                    <img class="scroll" src="images/scrollBackground.png">
+                    <span class="scrollWords">
+                        April 17th 2022
+                        <br>
+                        This is an announcement!
+                        <br>
+                        There are new products in the shop!
+                        <br>
+                        Please explore our wares!
+                        <br>
+                        <br>
+                        April 22nd 2022
+                        <br>
+                        Check out our new About Us Page!
+                        <br>
+                        You can learn more about the owners!
+                        <br>
+                        As well as how to connect with us!
+                        <br>
+                    </span>
+                </div>
+                <div class="noticeboard" style="text-align: center; left: -20px; top: 1100px;">
+                    <img src="images/reconwar3.gif">
+                    <img class="scroll" src="images/scrollBackground.png">
+                    <span class="scrollWords">
+                        April 12th 2022
+                        <br>
+                        THERE IS A NEW TABLETOP EVENTS STARTING SOON
+                        <br>
+                        Bring your minis and battle other players
+                        <br>
+                        Please explore the game room!
+                        <br>
+                        <br>
+                        April 30th 2022
+                        <br>
+                        THERE IS A CARD BATTLE EVENT HAPPENING SOON
+                        <br>
+                        You can learn how to play and challenge others
+                        <br>
+                        See who has the best Deck!
+                        <br>
+                    </span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br>
+
+</div>
+<div id="theFooter">
+    <div class="castleTop"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="images/devil.png" style="height: 100px; width: 100px;">
+                <br>
+            </div>
+            <div class="col">
+                <br>
+                515) 271-8104
+                <br>
+                7500 University Ave.
+                <br>
+                Des Moines, IA 50325
+            </div>
+            <div class="col" style="float: left; left: 10%">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                    <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
+                    <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+                    <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
