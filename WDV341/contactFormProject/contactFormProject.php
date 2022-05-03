@@ -11,6 +11,8 @@ $email_to = $array[1];
 $reason = $array[2];
 $message = $array[3];
 
+$date = date("m/d/Y");
+
 $email_response = "Thank you for reaching out to us on " .$date.$array[0]." (".$array[1].")".". We will resond to your ".$array[2]." as soon as possible."."<br>"." ";
 
 $your_message = "Your ".$array[2].":<br>".$array[3]."<br>";
